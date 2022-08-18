@@ -32378,6 +32378,7 @@ async function getQuote(account) {
         buyToken: currentTrade.to.symbol,
         sellAmount: amount,
         takerAddress: account,
+        slippagePercentage: 0.05
     }; 
 
     // Fetch the swap price
